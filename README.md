@@ -32,32 +32,36 @@
 
 <p align="center">
 Creat an s3 bucket where the file will be upload: <br/>
- <img src="images/qs1.png" height="80%" width="80%" alt="TF-IDF Steps"/>
+ <img src="images/ws1.png" height="80%" width="80%" alt="web-step"/>
 <br />
  
 <br />
- Upload project files into S3:  <br/>
-<img src="images/qs3.png" height="80%" width="80%" alt="TF-IDF Steps"/>
+ Upload project files & folder of the website into S3:  <br/>
+<img src="images/ws2.png" height="80%" width="80%" alt="web-step"/>
+<br />
+<br />
+The below image show the sucessful upload of file&folder:  <br/>
+<img src="images/ws3.png" height="80%" width="80%" alt="web-step"/>
 <br />
 
 <br />
  Navigate to the property setting  and configure the bucket that enable static website hosting:  <br/>
-<img src="images/qs4.png" height="80%" width="80%" alt="TF-IDF Steps"/>
+<img src="images/ws4.png" height="80%" width="80%" alt="web-steps"/>
 <br />
 
 <br />
  After that copy the static website url and paste into your browser you will recieve an "403 Error" <br/>
-<img src="images/qs6.png" height="80%" width="80%" alt="TF-IDF Steps"/>
+<img src="images/ws5.png" height="80%" width="80%" alt="web-step"/>
 <br />
 
 <br />
   To resolve this connection error, enable ACL public at the object level:  <br/>
-<img src="images/qs7.png" height="80%" width="80%" alt="TF-IDF Steps"/>
+<img src="images/ws6.png" height="80%" width="80%" alt="web-step"/>
 <br />
 
 <br />
 Then re-copy the URL into your browser it should be sucessful:  <br/>
-<img src="images/qs8.png" height="80%" width="80%" alt="TF-IDF Steps"/>
+<img src="images/ws7.png" height="80%" width="80%" alt="web-step"/>
 <br />
 
 <br />
